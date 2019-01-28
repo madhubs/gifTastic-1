@@ -1,0 +1,42 @@
+
+img { 
+    height: 150px;
+    width: 150px;
+    border:solid 2px white;
+}
+.btn {
+    margin: 3px;
+    background-color: green;
+    border-color: #fff;
+    font-size:25px;
+}
+div .gifDiv {
+   float:left;
+    margin: 3px;
+}
+.container {
+	opacity: 0.8;	
+}
+.jumbotron {
+    background: url("../images/background.jpg");
+   background-image:round;
+    background-size:cover;
+    text-align:center;
+  color:white;
+  font-size:25px;
+  font-family: 'Playfair Display SC', serif;
+}
+h1 {
+    font-size:150px;
+    font-family: 'Permanent Marker', cursive;
+}
+p {
+    font-size:20px;
+    font-family: 'Josefin Slab', serif;
+}
+body {
+    margin:0, 0, 0 ,0;
+}
+
+
+
