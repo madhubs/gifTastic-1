@@ -43,7 +43,7 @@ $(document).ready(function() {
 
     function displayGifs(){
         var search = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=6MYv8pAjcgKOLj1129G0wkvv4EA5rLDY&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=6MYv8pAjcgKOLj1129G0wkvv4EA5rLDY&limit=10";
         $.ajax({
             url: queryURL,
             method: 'GET'
